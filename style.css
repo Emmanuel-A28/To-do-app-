@@ -1,0 +1,151 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+.wrapper {
+    max-inline-size: 900px;
+    margin-inline: auto;
+    
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #ffffff;
+    
+}
+.site-header {
+    background: #0f172a;
+    padding: 1rem 2rem;
+}
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    color: #fff;
+    font-size: 1.5rem;
+}
+.link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 0px;    
+}
+.intro {
+    text-align: center;
+    background: #e8e8e8;
+    padding: 2rem 2rem; 
+}
+.intro h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.intro p {
+    max-width: 600px;
+    margin: 0 auto 2rem;
+}
+.primary-nav,
+.clear-all-btn {
+  display: inline-block;
+  text-align: center;
+  background: #2563eb;
+  color: #ffffff;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.features {
+  padding: 3rem 2rem; 
+}
+.features h3 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    
+}
+.feature-list {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.feature {
+  background: #e4e4e4e9;
+  padding: 1.5rem;
+  width: 250px;
+  border-radius: 8px;
+  margin-bottom:10px;
+}
+.site-footer {
+  background: #0f172a;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+.todo-app {
+    margin: 5px;
+}
+.clock-display {
+    border-radius: 5px;
+}
+.input-section, 
+.todo-list-section {
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 1.5rem;
+  gap: 15px;  
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;  
+  
+}
+.input-section {
+    margin-bottom: 0px;
+}
+.todo-list-section {
+    margin-top: 0px;
+}
+.clock-section {
+    background: #e4e4e4e9;
+    color: #0f3460; 
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    margin-bottom: 30px;
+}
+
+#clock {
+    font-family: monospace, 'Courier New', Courier;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000000;
+    
+}
+.group,
+.todo-list {
+    background: #e4e4e4e9;
+    border-inline-start: 5px #dddddd groove;
+    border-radius: 2px;    
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 1.25rem;
+    
+}
+.clear-all-btn {
+    
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale =1.0">
+        <title>ToDo App | Manage task</title>
+        <link rel ="stylesheet" href ="style.css">
+    </head>
+    <body class="todo-body">
+        <div class="wrapper">
+            <header class ="site-header">
+            <nav class="nav-header">
+                <h1 class="logo">TodoApp</h1>
+                <a href="index.html" class="link">Home</a>
+            </nav>
+        </header>
+       <main class="todo-app">
+           <section class="clock-section">
+               <h2 class="clock-label">Current time</h2>
+               <div class="clock-display">
+                   <span id="clock">00:00:00</span>
+               </div>
+           </section>
+           
+           <section class="input-section">
+               <h2>Add Tasks</h2>
+               <form id="todo-form">
+               <div class="group">
+                   <label for ="task-input">Task</label>
+                   <input type="text" id="task-input" placeholder="Enter you task" required>
+               </div>
+               
+               <div class="group">
+                   <label for ="time">Time</label>
+                   <input type="time" id="time-input"  required>
+               </div>
+               <button type="submit"class="primary-nav">Add Task</button>
+               </form>
+           </section>
+           <section class="todo-list-section">
+               <h2>My Tasks</h2>
+               <ul class="todo-list">
+                   
+               </ul>
+               <button id="clear-all" class="clear-all-btn">Delete all tasks</button>
+           </section>
+       </main> 
+       <footer class="site-footer">
+           <p>&copy; 2026 TodoApp. All rights reserved. </p>
+       </footer>
+        
+       <script src="my_clock.js"></script>
+       <script src="script.js"></script>
+       </div>
+    </body>
+</html>
